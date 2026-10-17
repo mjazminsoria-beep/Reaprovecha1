@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Handle of the basket -->
+  <path
+    d="M74 88 V60 C74 46 85 36 100 36 C115 36 126 46 126 60 V88"
+    stroke="#0c3b36"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Food items inside the basket -->
+  <!-- Left: Green lettuce / broccoli -->
+  <g id="lettuce">
+    <circle cx="58" cy="80" r="16" fill="#22c55e" />
+    <circle cx="72" cy="70" r="15" fill="#16a34a" />
+    <circle cx="82" cy="82" r="13" fill="#22c55e" />
+    <path d="M52 86 C54 74 84 74 86 86 Z" fill="#15803d" />
+  </g>
+
+  <!-- Center: Red Apple / Tomato with leaf -->
+  <g id="apple">
+    <path
+      d="M100 68 C92 68 86 74 86 82 C86 92 94 98 100 98 C106 98 114 92 114 82 C114 74 108 68 100 68 Z"
+      fill="#ef4444"
+    />
+    <!-- Apple leaf & stem -->
+    <path d="M100 68 V62" stroke="#0c3b36" stroke-width="3" stroke-linecap="round" />
+    <path d="M100 64 C104 60 109 62 108 66 C104 66 101 65 100 64 Z" fill="#22c55e" />
+    <!-- Apple highlight -->
+    <circle cx="94" cy="76" r="2.5" fill="#fca5a5" />
+  </g>
+
+  <!-- Right: Golden Bread loaf -->
+  <g id="bread">
+    <ellipse cx="132" cy="78" rx="20" ry="14" transform="rotate(-15 132 78)" fill="#f59e0b" />
+    <!-- Bread crust scores -->
+    <line x1="124" y1="72" x2="126" y2="80" stroke="#fef3c7" stroke-width="3" stroke-linecap="round" />
+    <line x1="133" y1="70" x2="135" y2="80" stroke="#fef3c7" stroke-width="3" stroke-linecap="round" />
+    <line x1="142" y1="72" x2="144" y2="80" stroke="#fef3c7" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Basket Body -->
+  <path
+    d="M48 88 H152 C150 118 138 148 100 148 C62 148 50 118 48 88 Z"
+    fill="#0c3b36"
+  />
+
+  <!-- Dynamic U-curve arrow in front of basket -->
+  <!-- White ribbon 'U' -->
+  <path
+    d="M72 104 C72 124 84 132 98 132"
+    stroke="#ffffff"
+    stroke-width="14"
+    stroke-linecap="round"
+  />
+
+  <!-- Green upward arrow continuing the loop -->
+  <path
+    d="M96 132 C116 132 138 126 142 98"
+    stroke="#22c55e"
+    stroke-width="14"
+    stroke-linecap="round"
+  />
+
+  <!-- Arrowhead pointing up-right -->
+  <polygon
+    points="142,80 156,104 128,104"
+    fill="#22c55e"
+    transform="rotate(15 142 94)"
+  />
+</svg>

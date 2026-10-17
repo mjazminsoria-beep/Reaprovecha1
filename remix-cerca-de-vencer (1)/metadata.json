@@ -1,0 +1,8 @@
+{
+  "name": "Remix Cerca de Vencer",
+  "description": "Plataforma para conectar proveedores con alimentos próximos a vencer o con fallas y consumidores para reducir el desperdicio y ahorrar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
